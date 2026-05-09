@@ -1,8 +1,9 @@
 {
   "name": "Fudbal Radar Pro",
   "short_name": "Fudbal Radar",
-  "description": "Live praćenje i pametna detekcija promena kvota",
-  "start_url": "./index.html",
+  "description": "Live praćenje i detekcija promena kvota",
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#030712",
   "theme_color": "#030712",
@@ -11,7 +12,14 @@
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
